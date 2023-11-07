@@ -1,0 +1,137 @@
+@media (max-width: 768px){
+    .container {
+        margin: 0 auto;
+        max-width: 425px;
+    }
+    .section6{
+        margin-top: 25px;
+        #ffooto{
+            display: none! important;
+        }
+        .ff1{
+            display:block;
+            #gr{
+                width: 70%;
+            }
+        }
+            #tx1 {
+                font-size: 25px;
+            }
+    }
+    .footer{
+        margin-right: 0px;
+        margin-top: 50px;
+        height: 180px;
+        #foto{
+            width: 50%;
+        }
+        &__block{
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+        }
+        &__text{
+            margin-right: 25px;
+            font-size: 13px;
+        }
+    }
+    .section5{
+        #tx1{
+            font-size: 25px;
+        }
+    }
+    .section3{
+        #fotos3{
+            width: 65%;
+        }
+        #tx1{
+            font-size: 25px;
+        }
+    }
+    .section2{
+        #Foto1{
+            width: 65%;
+        }
+        #tx1{
+            font-size: 25px;
+        }
+    }
+    .section1{
+        #h51{
+            width: 197px;
+            color: #000;
+            font-family: Inter;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 14px;
+        }
+        #pp{
+            width: 288px;
+            color: rgba(29,28,28,.7);
+            font-family: Inter;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 12px;
+        }
+    }
+}
+@media (min-width: 320px) and (max-width:425px){
+    .container{
+        margin: 0 auto;
+        max-width: 300px;
+    }
+    .section6{
+        margin-top: 20px;
+        .ff1{
+            display: inline-block;
+            #gr{
+            width: 65%;
+        }
+    }
+            #tx1 {
+                font-size: 20px;
+            }
+    }
+    .section5{
+        #tx1{
+            font-size: 20px;
+        }
+    }
+    .section3{
+        #fotos3{
+            width: 50%;
+        }
+        #tx1{
+            font-size: 20px;
+        }
+    }
+    .section2{
+        #Foto1{
+            width: 50%;
+        }
+        #tx1{
+            font-size: 20px;
+        }
+    }
+    .section1{
+        .d-none{
+            display: block;
+        }
+        #h51{
+            font-size: 8px;
+            line-height: 16px;
+            width: 385px;
+        }
+        #pp{
+            font-size: 8px;
+            line-height: 12px;
+            width: 462px;
+        }
+    }
+    .navbar .container-fluid {
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+}
